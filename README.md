@@ -23,3 +23,18 @@ A simple Python script that fetches the current gas price on the Ethereum networ
    git clone https://github.com/yourusername/gas-price-estimator.git
    cd gas-price-estimator
 
+2. Create a .env file from the .env.example:
+cp .env.example .env
+
+
+3. Add your Etherscan API key to the .env file:
+ETHERSCAN_API_KEY=your_api_key_here
+
+
+4. Install the required packages:
+   pip install -r requirements.txt
+
+Usage
+Run the script:
+
+python gas_price_estimator.py
