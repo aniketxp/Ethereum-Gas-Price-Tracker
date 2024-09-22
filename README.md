@@ -28,8 +28,6 @@ cp .env.example .env
 
 Add your Etherscan API key to the .env file:
 
-plaintext
-
 ETHERSCAN_API_KEY=your_api_key_here
 
 Install the required packages:
