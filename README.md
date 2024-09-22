@@ -1,6 +1,3 @@
-# Ethereum-Gas-Price-Tracker
-A robust Python script for real-time monitoring of Ethereum gas prices using the Etherscan API.
-
 # Gas Price Estimator
 
 A simple Python script that fetches the current gas price on the Ethereum network using the Etherscan API.
@@ -23,18 +20,30 @@ A simple Python script that fetches the current gas price on the Ethereum networ
    git clone https://github.com/yourusername/gas-price-estimator.git
    cd gas-price-estimator
 
-2. Create a .env file from the .env.example:
+    Create a .env file from the .env.example:
+
+    bash
+
 cp .env.example .env
 
+Add your Etherscan API key to the .env file:
 
-3. Add your Etherscan API key to the .env file:
+plaintext
+
 ETHERSCAN_API_KEY=your_api_key_here
 
+Install the required packages:
 
-4. Install the required packages:
-   pip install -r requirements.txt
+bash
+
+    pip install -r requirements.txt
 
 Usage
+
 Run the script:
 
+bash
+
 python gas_price_estimator.py
+
+The current gas price will be displayed every minute.
